@@ -19,20 +19,20 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <form th:action="@{/empleado/guardar}" th:object="${empleado}" method="post">
             <input type="hidden" th:field="*{id}">
  
-            <label>Puesto:</label>
+            <label style ="margin-left: 10px">Puesto:</label>
             <select th:field="*{idPuesto}">
                 <option th:each="puesto : ${puestosDisponibles}"
                         th:value="${puesto.idPuesto}"
                         th:text="${puesto.nombre}"></option>
             </select>
  
-            <label>Nombre:</label>
+            <label style ="margin-left: 10px">Nombre:</label>
             <input type="text" th:field="*{nombre}">
  
-            <label>Apellidos:</label>
+            <label style ="margin-left: 10px">Apellidos:</label>
             <input type="text" th:field="*{apellidos}">
  
-            <label>Fecha de contratación:</label>
+            <label style ="margin-left: 10px">Fecha de contratación:</label>
             <input type="date" th:field="*{fechaContratacion}">
  
             <button style ="margin-left: 40px" class="btn btn-primary" type="submit">Guardar</button>
