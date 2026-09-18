@@ -1,0 +1,14 @@
+com\mycompany\mcv\modelo\Producto.class
+com\mycompany\mcv\modelo\Puesto.class
+com\mycompany\mcv\modelo\Empleado.class
+com\mycompany\mcv\dao\MarcasDAO.class
+com\mycompany\mcv\controlador\clienteControlador.class
+com\mycompany\mcv\modelo\Marca.class
+com\mycompany\mcv\modelo\Cliente.class
+com\mycompany\mcv\dao\ClienteDAO.class
+com\mycompany\mcv\MCV.class
+com\mycompany\mcv\modelo\Factura.class
+com\mycompany\mcv\modelo\DetalleFactura.class
+com\mycompany\mcv\config\ConexionBD.class
+com\mycompany\mcv\dao\CrudDAO.class
+com\mycompany\mcv\modelo\Persona.class
